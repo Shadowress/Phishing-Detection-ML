@@ -1,0 +1,23 @@
+{
+    "model_name": "rf_reduced",
+    "description": "Reduced-feature model before leakage feature removal",
+    "test_type": "label_shuffling",
+    "n_runs": 10,
+    "metric": "AUC",
+    "mean_score": 0.4915752404792709,
+    "std_score": 0.007888074973829057,
+    "expected_behavior": "Approximately random (\u2248 0.5)",
+    "passed": true,
+    "individual_scores": [
+        0.4931637157563143,
+        0.5058304269561793,
+        0.4823691005231479,
+        0.49798341958710696,
+        0.48778092479045954,
+        0.48564155228666256,
+        0.4785420205884008,
+        0.49791671823142264,
+        0.4968181850143444,
+        0.48970634105867134
+    ]
+}
